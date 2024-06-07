@@ -51,6 +51,7 @@ This is a full-stack web application built using the MERN (MongoDB, Express, Rea
 6. Navigate to the frontend directory: `cd client`
 7. Install frontend dependencies: `npm install`
 8. Start the frontend development server: `npm run dev`
+9. Remember you need to config your Database, in this case a MongoDB. 
 
 The backend server will be running on http://localhost:4000/ and the frontend development server will be running on http://localhost:5173/.
 
