@@ -15,12 +15,20 @@ This is a full-stack web application built using the MERN (MongoDB, Express, Rea
 ## Technologies Used
 ### Frontend
 - React
-- React Router
+- React Router Dom
 - React Hook Form
 - Axios
 - Day.js
 - Tailwind CSS
 - React Icons
+- Zod
+- @types/react
+- @types/react-dom
+- @vitejs/plugin-react
+- autoprefixer
+- postcss
+- tailwindcss
+- vite
 
 ### Backend
 - Node.js
@@ -30,15 +38,19 @@ This is a full-stack web application built using the MERN (MongoDB, Express, Rea
 - jsonwebtoken
 - cors
 - morgan
+- cross-env
+- dotenv
+- nodemon
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/gonzalolater/Speaking-Roses-Challenge.git`
 2. Navigate to the directory: `cd speaking-roses-challenge`
 3. Install backend dependencies: `npm install`
 4. Start the backend server: `npm run dev`
-5. Navigate to the frontend directory: `cd client`
-6. Install frontend dependencies: `npm install`
-7. Start the frontend development server: `npm run dev`
+5. Open a new terminal.
+6. Navigate to the frontend directory: `cd client`
+7. Install frontend dependencies: `npm install`
+8. Start the frontend development server: `npm run dev`
 
 The backend server will be running on http://localhost:4000/ and the frontend development server will be running on http://localhost:5173/.
 
